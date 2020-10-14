@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Smoke Suite]">
+  <listeners>
+    <listener class-name="Analyzer.MyTransformer"/>
+    <listener class-name="com.qa.ExtentReportListenerer.ExtentReportListenerer"/>
+  </listeners>
+  <test thread-count="5" verbose="5" name="Smoke Testcases(failed)">
+    <classes>
+      <class name="test.scanario.DemoTest">
+        <methods>
+          <include name="varifyLoginPageUrl"/>
+          <include name="tearDown"/>
+          <include name="setUP"/>
+          <include name="varifyLoginPagetitle"/>
+        </methods>
+      </class> <!-- test.scanario.DemoTest -->
+    </classes>
+  </test> <!-- Smoke Testcases(failed) -->
+</suite> <!-- Failed suite [Smoke Suite] -->

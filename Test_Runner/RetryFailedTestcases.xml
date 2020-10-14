@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RetryFailedArtthaTestSuite" verbose="5">
+
+<listeners>
+
+<listener class-name="Analyzer.MyTransformer">
+<listener class-name="com.qa.ExtentReportListenerer.ExtentReportListenerer">
+</listener>
+</listener>
+</listeners>
+  <test thread-count="5" name="RetryMultipleArtthaFailedTestCases">
+    <classes>
+      <class name="test.scanario.DemoTest"/>
+      
+     
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

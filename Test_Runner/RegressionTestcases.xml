@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" verbose="5">
+<listeners>
+
+<listener class-name="Analyzer.MyTransformer">
+<listener class-name="com.qa.ExtentReportListenerer.ExtentReportListenerer">
+</listener>
+</listener>
+</listeners>
+  <test thread-count="5" name="Regression Tests">
+    <classes>
+      <class name="test.scanario.DemoTest"/>
+      <class name="test.scanario.LoginPageTest"/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,8 @@
+15:50:09.520 [main] INFO  Generic.BaseTest - Enter UserName
+15:53:19.363 [main] INFO  Generic.BaseTest - Varify current page Url
+15:53:37.495 [main] INFO  Generic.BaseTest - Varify current page Url
+15:53:47.317 [main] INFO  Generic.BaseTest - Varify current page Url
+15:53:56.137 [main] INFO  Generic.BaseTest - Varify current page Url
+15:54:06.908 [main] INFO  Generic.BaseTest - Varify page title
+15:54:15.155 [main] INFO  Generic.BaseTest - Varify page title
+17:16:19.510 [main] INFO  Generic.BaseTest - Varify current page Url

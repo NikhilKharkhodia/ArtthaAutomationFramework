@@ -1,0 +1,12 @@
+com\pages\HomePage.class
+Analyzer\MyTransformer.class
+com\utill\TestUtil.class
+com\utill\WebEventListener.class
+com\pages\ManagePage.class
+com\qa\ExtentReportListenerer\ExtentReportListenerer.class
+Analyzer\RetryAnalyzer.class
+com\pages\LoginPage.class
+Generic\BaseTest.class
+com\pages\InvalidLoginPage.class
+com\pages\NewCurrencyPage.class
+Generic\Utilities.class

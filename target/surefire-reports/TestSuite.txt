@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 144.938 s <<< FAILURE! - in TestSuite
+varifyLoginPageUrl(test.scanario.DemoTest)  Time elapsed: 0.134 s  <<< FAILURE!
+java.lang.AssertionError: expected [http://103.206.163.20:9097/mandiri/do/] but found [http://103.206.163.20:9097/mandiri/do/login]
+	at test.scanario.DemoTest.varifyLoginPageUrl(DemoTest.java:43)
+
